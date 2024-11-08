@@ -80,7 +80,7 @@ switch($action){
 
 
         break;
-
+//quân đẹp trai
 
 
     
