@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+ 
+}
+.khung{
+    width: 70%;
+    margin: 0 auto;
+}
+.row{
+    float: left;
+    width: 100%;
+
+}
+.mb{
+    margin-bottom: 20px;
+
+}
+.demo{
+    background-color: antiquewhite;
+    min-height: 100px;
+}
+.header{
+    background-color: #ccffcc;
+    font-size: 15pt;
+    color: green;
+    min-height: 100px;
+    padding-left: 20px;
+}
+.menu{
+    background-color: black;
+    min-height: 20px;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    font-size: 15pt;
+}
+.body{
+    width: 100%;
+}
+.boxtrai{
+    width: 74%;
+    float: left;
+}
+.boxphai{
+    width: 24%;
+    float: right;
+}
+.footer{
+    background-color: #ccffcc;
+    font-size: 15pt;
+    color: blue;
+    padding: 15px;
+}
+.boxtitle{
+    background-color: #eee;
+    padding: 2px;
+    border-top-left-radius: 5px ;
+    border-top-right-radius: 5px ;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+
+
+}
+.formtaikhoan{
+    line-height: 200%;
+}
+.formtaikhoan input{
+    width: 200px;
+    height: 30px;
+}
+li a{
+    text-decoration: none;
+}
+.boxcontent{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-bottom-left-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+    padding: 20px;
+    min-height: 200px;
+}
+.boxcontent2{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    min-height: 200px;
+    background-color: #EEE;
+}
+.boxfooter{
+    padding: 10px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #eee;
+}
+.banner{
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    
+}
+.banner img{
+    height: 300px;
+}
+.boxsp{
+    float: left;
+    width: 31%;
+    min-height: 300px;
+    border: 1px #EEE solid;
+    border-radius: 5px;
+    margin: 8px;
+}
+.boxsp>img{
+    text-align: center;
+    width: 80%;
+    height: 250px;
+}
+.menudoc ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menudoc ul li{
+    padding: 10px 20px;
+    background-color: #EEE;
+    border-bottom: 1px #CCC solid;
+}
+.menudoc ul li a{
+    color: #666;
+    text-decoration: none;
+    font-size: 15pt;
+}
+.menudoc ul li:hover{
+    background-color: #ccc;
+
+}
+.menudoc ul li img{
+    width: 20%;
+    height: 50px;
+    margin-right: 10px;
+}
+.menudoc ul li{
+    display: flex;
+}
+.menudoc ul li a{
+    font-size: 15pt;
+}
